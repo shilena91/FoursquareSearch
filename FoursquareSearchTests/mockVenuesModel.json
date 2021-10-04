@@ -1,0 +1,380 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "615b2f552ca4833a041b6baa"
+    },
+    "response": {
+        "venues": [
+            {
+                "id": "4b1809a0f964a520dccb23e3",
+                "name": "Maltainen Riekko",
+                "contact": {
+                    "phone": "+35898761616",
+                    "formattedPhone": "+358 9 8761616"
+                },
+                "location": {
+                    "address": "Aleksis Kiven katu 56",
+                    "crossStreet": "Kotkankatu",
+                    "lat": 60.1924053811237,
+                    "lng": 24.945079031059336,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.1924053811237,
+                            "lng": 24.945079031059336
+                        }
+                    ],
+                    "distance": 56,
+                    "postalCode": "00510",
+                    "cc": "FI",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Aleksis Kiven katu 56 (Kotkankatu)",
+                        "00510 Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d11b941735",
+                        "name": "Pub",
+                        "pluralName": "Pubs",
+                        "shortName": "Pub",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "tipCount": 24,
+                    "usersCount": 1232,
+                    "checkinsCount": 4792
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5fa8ecd5bc4d3706d259acfc",
+                "name": "The Container Barber",
+                "contact": {},
+                "location": {
+                    "address": "Konepajanraitti 3",
+                    "lat": 60.193094,
+                    "lng": 24.945282,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.193094,
+                            "lng": 24.945282
+                        }
+                    ],
+                    "distance": 119,
+                    "postalCode": "00510",
+                    "cc": "FI",
+                    "neighborhood": "Konepaja",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Konepajanraitti 3",
+                        "00510 Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d110951735",
+                        "name": "Salon / Barbershop",
+                        "pluralName": "Salons / Barbershops",
+                        "shortName": "Salon / Barbershop",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/salon_barber_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 3,
+                    "checkinsCount": 8
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5f8ad9bafcd49f1f074cb4ca",
+                "name": "The Folks Hotel",
+                "contact": {},
+                "location": {
+                    "address": "Aleksis Kiven Katu 21-23",
+                    "crossStreet": "Konepajanportti 2",
+                    "lat": 60.192531,
+                    "lng": 24.945377,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.192531,
+                            "lng": 24.945377
+                        }
+                    ],
+                    "distance": 58,
+                    "postalCode": "00510",
+                    "cc": "FI",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Aleksis Kiven Katu 21-23 (Konepajanportti 2)",
+                        "00510 Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "shortName": "Hotel",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 0,
+                    "usersCount": 20,
+                    "checkinsCount": 29
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "4cdeb0b269136dcb57d6d7e6",
+                "name": "Kuuskulma",
+                "contact": {},
+                "location": {
+                    "address": "Porvoonkatu",
+                    "crossStreet": "a.k.a Porvoonkadun aukio",
+                    "lat": 60.191456917195275,
+                    "lng": 24.943318051795796,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.191456917195275,
+                            "lng": 24.943318051795796
+                        }
+                    ],
+                    "distance": 154,
+                    "cc": "FI",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Porvoonkatu (a.k.a Porvoonkadun aukio)",
+                        "Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d164941735",
+                        "name": "Plaza",
+                        "pluralName": "Plazas",
+                        "shortName": "Plaza",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 4,
+                    "usersCount": 219,
+                    "checkinsCount": 2676
+                },
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5f739b79fbc1e40817d2c5fd",
+                "name": "Albina",
+                "contact": {
+                    "phone": "+358442441276",
+                    "formattedPhone": "+358 44 2441276",
+                    "instagram": "albina_ja_alexis",
+                    "facebook": "102899798203660",
+                    "facebookUsername": "RavintolaAlbina",
+                    "facebookName": "Albina & Alexis"
+                },
+                "location": {
+                    "address": "Aleksis Kiven katu 23",
+                    "crossStreet": "Konepajanraitti 8",
+                    "lat": 60.19263640995715,
+                    "lng": 24.945150688290596,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.19263640995715,
+                            "lng": 24.945150688290596
+                        }
+                    ],
+                    "distance": 74,
+                    "postalCode": "00510",
+                    "cc": "FI",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Aleksis Kiven katu 23 (Konepajanraitti 8)",
+                        "00510 Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1c4941735",
+                        "name": "Restaurant",
+                        "pluralName": "Restaurants",
+                        "shortName": "Restaurant",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 2,
+                    "usersCount": 114,
+                    "checkinsCount": 155
+                },
+                "url": "https://restaurantalbina.fi",
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            },
+            {
+                "id": "5aec16484940bc00396dc7b0",
+                "name": "R-kioski",
+                "contact": {},
+                "location": {
+                    "address": "Konepajankuja 1",
+                    "crossStreet": "Aleksis Kiven katu",
+                    "lat": 60.191142761034,
+                    "lng": 24.948749542236328,
+                    "labeledLatLngs": [
+                        {
+                            "label": "display",
+                            "lat": 60.191142761034,
+                            "lng": 24.948749542236328
+                        }
+                    ],
+                    "distance": 191,
+                    "postalCode": "00510",
+                    "cc": "FI",
+                    "city": "Helsinki",
+                    "state": "Uusimaa",
+                    "country": "Suomi",
+                    "formattedAddress": [
+                        "Konepajankuja 1 (Aleksis Kiven katu)",
+                        "00510 Helsinki",
+                        "Suomi"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4d954b0ea243a5684a65b473",
+                        "name": "Convenience Store",
+                        "pluralName": "Convenience Stores",
+                        "shortName": "Convenience Store",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/conveniencestore_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "tipCount": 1,
+                    "usersCount": 45,
+                    "checkinsCount": 172
+                },
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "lastCheckinExpiredAt": 0
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1633365845",
+                "venueChains": [],
+                "hasPerk": false
+            }
+        ],
+        "confident": false
+    }
+}
