@@ -12,13 +12,10 @@ class FSDataLoadingVC: UIViewController {
     private var containerView: UIView?
     private var emptyStateView: FSEmptyStateView?
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
-
     func showLoadingView() {
         // Make sure we don't create more than 1 loading view
         if containerView != nil {
@@ -43,12 +40,10 @@ class FSDataLoadingVC: UIViewController {
         activityIndicator.startAnimating()
     }
     
-    
     func dismissLoadingView() {
         containerView?.removeFromSuperview()
         containerView = nil
     }
-    
     
     func showEmptyStateView(with message: String, in view: UIView) {
         // make sure to never add more than 1 emptyStateView
@@ -59,7 +54,6 @@ class FSDataLoadingVC: UIViewController {
         }
     }
 
-    
     func dismissEmptyStateView() {
         emptyStateView?.removeFromSuperview()
         emptyStateView = nil

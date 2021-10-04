@@ -30,6 +30,8 @@ class VenueCell: UITableViewCell {
         distanceLabel.text = "\(distanceInKm) km"
     }
     
+    // MARK: - Private methods
+    
     private func configureUI() {
         distanceLabel = UILabel(frame: CGRect(x: 5, y: 5, width: 80, height: 20))
 

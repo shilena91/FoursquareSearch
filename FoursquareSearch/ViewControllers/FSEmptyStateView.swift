@@ -8,7 +8,7 @@
 import UIKit
 
 // This View will be shown when app can't get any venue
-class FSEmptyStateView: UIView {
+final class FSEmptyStateView: UIView {
 
     private let messageLabel = FSLabel(textAlignment: .center, fontSize: Sizes.emptyStateMessageFontSize, textColor: .secondaryLabel)
     
@@ -18,23 +18,19 @@ class FSEmptyStateView: UIView {
         configure()
     }
   
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     convenience init(message: String) {
         self.init(frame: .zero)
         messageLabel.text = message
     }
     
-    
     private func configure() {
-        addSubViews(messageLabel)
+        addSubview(messageLabel)
         configureMessageLabel()
     }
-    
     
     private func configureMessageLabel() {
         messageLabel.numberOfLines = 3
@@ -46,6 +42,5 @@ class FSEmptyStateView: UIView {
             messageLabel.heightAnchor.constraint(equalToConstant: 200),
         ])
     }
-
 }
 

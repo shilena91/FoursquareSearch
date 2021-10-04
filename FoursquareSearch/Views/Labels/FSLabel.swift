@@ -14,11 +14,9 @@ final class FSLabel: UILabel {
         configure()
     }
     
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     convenience init(textAlignment: NSTextAlignment, fontSize: CGFloat, textColor: UIColor) {
         self.init(frame: .zero)
@@ -27,7 +25,6 @@ final class FSLabel: UILabel {
         self.textColor = textColor
     }
     
-    
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
         numberOfLines = 1
@@ -35,5 +32,4 @@ final class FSLabel: UILabel {
         adjustsFontSizeToFitWidth = true
         minimumScaleFactor = 0.9
     }
-
 }

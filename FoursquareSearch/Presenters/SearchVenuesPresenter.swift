@@ -46,6 +46,7 @@ final class SearchVenuesPresenter: SearchVenuesProtocol {
         }
         
         searchText = text?.trimmingCharacters(in: .whitespaces)
+        // Not calling API if search text only contains whitespaces
         if searchText?.count == 0 {
             return
         }
@@ -87,6 +88,8 @@ final class SearchVenuesPresenter: SearchVenuesProtocol {
         return searchText
     }
 }
+
+// MARK: - extension SearchVenuesPresenter with LocationServiceDelegate
 
 extension SearchVenuesPresenter {
     
