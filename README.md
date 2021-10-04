@@ -1,5 +1,5 @@
 # FoursquareSearch
-a simple iOS application to search nearby venues using foursquare API
+a simple iOS application to search nearby venues using foursquare API, using Model-View-Presenter (MVP) architecture
 
 ## Usage
 
